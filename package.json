@@ -1,0 +1,25 @@
+{
+  "name": "cypress-automation2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Michel Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.2",
+    "esbuild": "^0.18.17"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1"
+  }
+}
